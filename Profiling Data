@@ -3,8 +3,6 @@ SELECT COUNT(*) AS records
 FROM [dbo].[Evictions_20241120]
 
 
-
-
 /* How many evictions*/
 SELECT COUNT(DISTINCT Court_Index_Number) AS count_of_evictions
 FROM [dbo].[Evictions_20241120]
